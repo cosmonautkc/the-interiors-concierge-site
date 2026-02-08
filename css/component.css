@@ -1,6 +1,24 @@
+.top-bar {
+  background-color: var(--blue-300);
+  border-bottom: 1px solid var(--brown-900);
+}
+
 .tic-logo {
   margin-inline: var(--sp-100);
   padding-block: var(--sp-225);
+}
+
+.tic-logo img {
+  width: min(625px, 100vw);
+}
+
+.launch-title {
+  display: flex;
+  gap: var(--sp-100);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--sp-500);
+  margin-top: 1.75rem;
 }
 
 .launch-title h1 {
@@ -81,6 +99,14 @@
   font-size: clamp(var(--text-sm), 3vw, var(--text-xl));
 }
 
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: var(--sp-75);
+}
+
 .social {
   display: inline-flex;
   gap: var(--sp-100);
@@ -100,4 +126,32 @@
 .social a:hover {
   cursor: pointer;
   color: var(--blue-300);
+}
+
+.joel-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.joel-desktop {
+  display: none;
+}
+
+@media (min-width: 62rem) {
+  .launch-title {
+    justify-content: flex-start;
+  }
+
+  .socials {
+    align-items: flex-start;
+  }
+
+  .joel-mobile {
+    display: none;
+  }
+
+  .joel-desktop {
+    display: block;
+  }
 }
