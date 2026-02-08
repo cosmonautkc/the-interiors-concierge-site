@@ -16,6 +16,6 @@ footer {
 }
 
 footer p {
-  font-size: var(--text-xxs);
+  font-size: clamp(var(--text-xxs), 2vw, var(--text-md));
   padding-block: var(--sp-87);
 }
