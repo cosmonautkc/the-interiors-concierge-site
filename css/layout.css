@@ -18,16 +18,22 @@ footer {
 
 main {
   display: grid;
-  place-items: center;
+  /* place-items: center; */
 }
 
 .content {
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr;
 }
 
 .left-col {
   order: 2;
+  margin-inline: auto;
+}
+
+.left-col img {
+  width: min(34rem, 100vw);
 }
 
 .right-col {
