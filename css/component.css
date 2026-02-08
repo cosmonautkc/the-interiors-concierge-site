@@ -78,7 +78,7 @@
 
 .contact-title {
   font-weight: 500;
-  font-size: clamp(var(--sp-87), 3vw, var(--text-xl));
+  font-size: clamp(var(--text-sm), 3vw, var(--text-xl));
 }
 
 .social {
@@ -94,7 +94,7 @@
 .social a {
   text-decoration: none;
   color: var(--brown-900);
-  font-size: clamp(var(--sp-75), 2vw, var(--text-md));
+  font-size: clamp(var(--text-xs), 2vw, var(--text-md));
 }
 
 .social a:hover {
