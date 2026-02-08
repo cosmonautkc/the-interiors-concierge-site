@@ -1,12 +1,23 @@
-main {
-  display: grid;
-  place-items: center;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .top-bar {
+  width: 100%;
   height: 2.5rem;
   background-color: var(--blue-300);
   border-bottom: 1px solid var(--brown-900);
+}
+
+.tic-logo img {
+  width: min(625px, 100vw);
+}
+
+main {
+  display: grid;
+  place-items: center;
 }
 
 .socials {
