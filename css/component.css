@@ -5,7 +5,7 @@
 
 .launch-title h1 {
   font-family: var(--font-serif);
-  font-size: var(--text-xl);
+  font-size: clamp(var(--text-xl), 2vw, var(--text-sl));
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -78,7 +78,7 @@
 
 .contact-title {
   font-weight: 500;
-  font-size: var(--sp-87);
+  font-size: clamp(var(--sp-87), 3vw, var(--text-xl));
 }
 
 .social {
@@ -94,7 +94,7 @@
 .social a {
   text-decoration: none;
   color: var(--brown-900);
-  font-size: var(--sp-75);
+  font-size: clamp(var(--sp-75), 2vw, var(--text-md));
 }
 
 .social a:hover {
