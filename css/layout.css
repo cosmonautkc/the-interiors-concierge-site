@@ -8,3 +8,11 @@ main {
   background-color: var(--blue-300);
   border-bottom: 1px solid var(--brown-900);
 }
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: var(--sp-75);
+}

@@ -83,3 +83,29 @@
     opacity: 1;
   }
 }
+
+.contact-title {
+  font-weight: 500;
+  font-size: var(--sp-87);
+}
+
+.social {
+  display: inline-flex;
+  gap: var(--sp-100);
+}
+
+.social img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.social a {
+  text-decoration: none;
+  color: var(--brown-900);
+  font-size: var(--sp-75);
+}
+
+.social a:hover {
+  cursor: pointer;
+  color: var(--blue-300);
+}
