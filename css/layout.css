@@ -25,7 +25,6 @@ main {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
-  margin-bottom: var(--sp-450);
 }
 
 .left-col {
@@ -62,6 +61,9 @@ main {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: var(--sp-450);
+    width: 90%;
+    margin-inline: auto;
+    margin-bottom: var(--sp-450);
   }
 
   .left-col {
