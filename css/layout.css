@@ -40,6 +40,14 @@ main {
   order: 1;
 }
 
+.launch-title {
+  display: flex;
+  gap: var(--sp-100);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--sp-500);
+}
+
 .socials {
   display: flex;
   flex-direction: column;
@@ -52,6 +60,7 @@ main {
   .content {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    gap: var(--sp-450);
   }
 
   .left-col {
@@ -60,5 +69,13 @@ main {
 
   .right-col {
     order: 2;
+  }
+
+  .launch-title {
+    justify-content: flex-start;
+  }
+
+  .socials {
+    align-items: flex-start;
   }
 }

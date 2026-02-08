@@ -3,14 +3,6 @@
   padding-block: var(--sp-225);
 }
 
-.launch-title {
-  display: flex;
-  gap: var(--sp-100);
-  justify-content: center;
-  align-items: center;
-  margin-bottom: var(--sp-500);
-}
-
 .launch-title h1 {
   font-family: var(--font-serif);
   font-size: var(--text-xl);
