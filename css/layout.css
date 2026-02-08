@@ -2,3 +2,9 @@ main {
   display: grid;
   place-items: center;
 }
+
+.top-bar {
+  height: 2.5rem;
+  background-color: var(--blue-300);
+  border-bottom: 1px solid var(--brown-900);
+}
