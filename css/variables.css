@@ -19,4 +19,9 @@
   --text-xl: 1.25rem;
   --text-xxl: 1.5rem;
   --text-sl: 2.25rem;
+
+  --font-sans:
+    "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  --font-serif: "Baskervville SC", Georgia, "Times New Roman", Times, serif;
 }
