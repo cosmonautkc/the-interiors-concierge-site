@@ -18,13 +18,14 @@ footer {
 
 main {
   display: grid;
-  /* place-items: center; */
+  flex: 1;
 }
 
 .content {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
+  margin-bottom: var(--sp-450);
 }
 
 .left-col {
