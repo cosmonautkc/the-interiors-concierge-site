@@ -41,7 +41,7 @@ h6 {
 
 body {
   background-color: var(--cream-50);
-  min-height: 100vh;
   font-family: var(--font-sans);
   font-weight: 400;
+  color: var(--brown-900);
 }
