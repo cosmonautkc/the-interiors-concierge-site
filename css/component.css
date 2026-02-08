@@ -97,6 +97,7 @@
 .contact-title {
   font-weight: 500;
   font-size: clamp(var(--text-sm), 3vw, var(--text-xl));
+  font-family: var(--font-serif);
 }
 
 .socials {
