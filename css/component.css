@@ -2,3 +2,23 @@
   margin-inline: var(--sp-100);
   padding-block: var(--sp-225);
 }
+
+.launch-title {
+  display: flex;
+  gap: var(--sp-100);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--sp-500);
+}
+
+.launch-title h1 {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.star-icon {
+  width: 1.25rem;
+  height: 1.313rem;
+}
