@@ -1,0 +1,22 @@
+:root {
+  --brown-900: hsl(17, 51%, 12%);
+  --cream-50: hsl(33, 38%, 94%);
+  --blue-300: hsl(202, 60%, 79%);
+
+  --sp-75: 0.75rem;
+  --sp-87: 0.875rem;
+  --sp-100: 1rem;
+  --sp-150: 1.5rem;
+  --sp-225: 2.25rem;
+  --sp-450: 4.5rem;
+  --sp-500: 5rem;
+
+  --text-xxs: 0.5rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-xxl: 1.5rem;
+  --text-sl: 2.25rem;
+}
